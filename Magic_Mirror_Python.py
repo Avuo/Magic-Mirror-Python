@@ -78,7 +78,7 @@ while True:
             sleep = 0
             motiondetector()
 
-    api = NewsApiClient(api_key='9cc24164056e462ca822c9903d6c311e')
+    api = NewsApiClient(api_key='API_KEY')
 
     #This sequence decrypts the info feed for the script
     headlines = api.get_top_headlines(sources='bbc-news')
